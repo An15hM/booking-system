@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="assets/css/google-icon.css">
     <link rel="stylesheet" href="assets/css/remixicon.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/fullcalendar.main.css">
     <link rel="stylesheet" href="assets/css/jsvectormap.min.css">
     <link rel="stylesheet" href="assets/css/lightpick.css">
     <link rel="stylesheet" href="assets/css/datepicker.material.css">
@@ -197,8 +196,9 @@
                                 </li>
                                 <li class="header-right-item">
                                     <div class="dropdown notifications noti">
-                                        <button class="btn btn-secondary border-0 p-0 position-relative badge"
-                                            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <button
+                                            class="btn btn-secondary border-0 p-0 position-relative badge d-inline-block bg-success-80 border-success-80 border rounded-pill text-success-60 fs-12 fw-medium="
+                                            button" data-bs-toggle="dropdown" aria-expanded="false">
                                             <span class="material-symbols-outlined">notifications</span>
                                         </button>
                                         <div class="dropdown-menu dropdown-lg p-0 border-0 p-0 dropdown-menu-end">
@@ -391,383 +391,55 @@
             <div class="main-content-container overflow-hidden">
 
                 <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-4">
-                    <h3 class="mb-0">Dashboard</h3>
-                </div>
+                    <h3 class="mb-0">Tables Management</h3>
 
-                <div class="row">
-                    <div class="col-xxl-3 col-sm-6">
-                        <div class="card custom-shadow for-dark-rounded-bg rounded-3 border mb-4">
-
-                            <div class="card-body bg-white p-4 rounded-2">
-                                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-2"
-                                    style="padding: 4.5px 0;">
-                                    <h3 class="mb-0 fs-16 fw-normal">Total Reservations</h3>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <h3 class="fs-24 fw-semibold text-secondary mb-0">200</h3>
-                                    <div class="text-center rounded-circle d-flex align-items-center justify-content-center text-primary"
-                                        style="background-color: #ECF0FF; width: 51px; height: 51px; line-height: 51px;">
-                                        <span class="material-symbols-outlined">
-                                            calendar_month
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-sm-6">
-                        <div class="card custom-shadow for-dark-rounded-bg rounded-3 border mb-4">
-
-                            <div class="card-body bg-white p-4 rounded-2">
-                                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-2"
-                                    style="padding: 4.5px 0;">
-                                    <h3 class="mb-0 fs-16 fw-normal">Reservations Today</h3>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <h3 class="fs-24 fw-semibold text-secondary mb-0">15</h3>
-                                    <div class="text-center rounded-circle d-flex align-items-center justify-content-center text-primary"
-                                        style="background-color: #ECF0FF; width: 51px; height: 51px; line-height: 51px;">
-                                        <span class="material-symbols-outlined">
-                                            calendar_today
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-sm-6">
-                        <div class="card custom-shadow for-dark-rounded-bg rounded-3 border mb-4">
-
-                            <div class="card-body bg-white p-4 rounded-2">
-                                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-2"
-                                    style="padding: 4.5px 0;">
-                                    <h3 class="mb-0 fs-16 fw-normal">Total Customers</h3>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <h3 class="fs-24 fw-semibold text-secondary mb-0">45</h3>
-                                    <div class="text-center rounded-circle d-flex align-items-center justify-content-center text-primary"
-                                        style="background-color: #ECF0FF; width: 51px; height: 51px; line-height: 51px;">
-                                        <span class="material-symbols-outlined">
-                                            groups
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-sm-6">
-                        <div class="card custom-shadow for-dark-rounded-bg rounded-3 border mb-4">
-
-                            <div class="card-body bg-white p-4 rounded-2">
-                                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-2"
-                                    style="padding: 4.5px 0;">
-                                    <h3 class="mb-0 fs-16 fw-normal">New Customers Today</h3>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <h3 class="fs-24 fw-semibold text-secondary mb-0">2</h3>
-                                    <div class="text-center rounded-circle d-flex align-items-center justify-content-center text-primary"
-                                        style="background-color: #ECF0FF; width: 51px; height: 51px; line-height: 51px;">
-                                        <span class="material-symbols-outlined">
-                                            diversity_1
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb align-items-center mb-0 lh-1">
+                            <li class="breadcrumb-item">
+                                <a href="#" class="d-flex align-items-center text-decoration-none">
+                                    <i class="ri-home-4-line fs-18 text-primary me-1"></i>
+                                    <span class="text-secondary fw-medium hover">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item" aria-current="page">
+                                <span class="fw-medium">Tables Management</span>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                <span class="fw-medium">List</span>
+                            </li>
+                        </ol>
+                    </nav>
                 </div>
 
                 <div class="card bg-white border-0 rounded-3 mb-4">
                     <div class="card-body p-4">
                         <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
-                            <h3 class="mb-0 text-secondary-50">Your Reservations</h3>
-                            <div class="dropdown select-dropdown">
-                                <button class="dropdown-toggle bg-border-color border text-body rounded-2" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Today
-                                </button>
+                            <h3 class="mb-0 text-secondary-50">Our tables</h3>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <button type="button" class="btn btn-primary fw-medium text-white py-2 px-4"><i
+                                        class="ri-add-line"></i> Add Table</button>
+                                &nbsp;&nbsp;
+                                <div class="dropdown select-dropdown">
+                                    <button class="dropdown-toggle bg-border-color border text-body rounded-2"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Today
+                                    </button>
 
-                                <ul class="dropdown-menu dropdown-menu-end bg-white border-0 box-shadow py-3">
-                                    <li>
-                                        <button class="dropdown-item text-secondary py-2 px-3">Today</button>
-                                    </li>
-                                    <li>
-                                        <button class="dropdown-item text-secondary py-2 px-3">This Week</button>
-                                    </li>
-                                    <li>
-                                        <button class="dropdown-item text-secondary py-2 px-3">This Month</button>
-                                    </li>
-                                    <li>
-                                        <button class="dropdown-item text-secondary py-2 px-3">This Year</button>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="default-table-area style-two campaigns-table recent-order-list-table">
-                            <div class="table-responsive">
-                                <table class="table align-middle border-0">
-                                    <thead>
-                                        <tr class="border-bottom">
-                                            <th scope="col" class="bg-transparent text-body fw-medium">
-                                                <span
-                                                    class="fs-10 text-body-color-60 fw-bold letter-spacing-1">CODE</span>
-                                            </th>
-                                            <th scope="col" class="bg-transparent text-body fw-medium">
-                                                <span
-                                                    class="fs-10 text-body-color-60 fw-bold letter-spacing-1">RESERVATION
-                                                    DATE & TIME</span>
-                                            </th>
-                                            <th scope="col" class="bg-transparent text-body fw-medium">
-                                                <span class="fs-10 text-body-color-60 fw-bold letter-spacing-1">
-                                                    GUESTS</span>
-                                            </th>
-                                            <th scope="col" class="bg-transparent text-body fw-medium">
-                                                <span class="fs-10 text-body-color-60 fw-bold letter-spacing-1">SEATING
-                                                    AREA</span>
-                                            </th>
-                                            <th scope="col" class="bg-transparent text-body fw-medium">
-                                                <span class="fs-10 text-body-color-60 fw-bold letter-spacing-1">BOOKED
-                                                    BY</span>
-                                            </th>
-                                            <th scope="col" class="bg-transparent text-body fw-medium">
-                                                <span class="fs-10 text-body-color-60 fw-bold letter-spacing-1">BOOKED
-                                                    ON</span>
-                                            </th>
-                                            <th scope="col" class="bg-transparent text-body fw-medium">
-                                                <span
-                                                    class="fs-10 text-body-color-60 fw-bold letter-spacing-1">STATUS</span>
-                                            </th>
-                                            <th scope="col" class="text-end bg-transparent text-body fw-medium">
-                                                <span
-                                                    class="fs-10 text-body-color-60 fw-bold letter-spacing-1">ACTION</span>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="fs-12 fw-semibold text-body-color-50">#101</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">15 Jun 2025, 7:30 PM</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">4</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">Outdoor Patio</td>
-                                            <td class="fs-12 fw-normal text-body-color-50">Alice Brown</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">10 Jun 2025</td>
-                                            <td>
-                                                <span
-                                                    class="d-inline-block bg-success-80 border-success-80 border rounded-pill text-success-60 fs-12 fw-medium"
-                                                    style="padding: 2px 15px; line-height: 130%;">Confirmed</span>
-                                            </td>
-                                            <td class="text-end">
-                                                <div class="d-flex justify-content-end align-items-center gap-2">
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-primary">visibility</i>
-                                                    </button>
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-primary-div-50">edit</i>
-                                                    </button>
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-danger">delete</i>
-                                                    </button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="fs-12 fw-semibold text-body-color-50">#102</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">16 Jun 2025, 8:00 PM</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">2</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">Private Room</td>
-                                            <td class="fs-12 fw-normal text-body-color-50">James Carter</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">11 Jun 2025</td>
-                                            <td>
-                                                <span
-                                                    class="d-inline-block bg-primary-70 border-primary-70 border rounded-pill text-primary fs-12 fw-medium"
-                                                    style="padding: 2px 15px; line-height: 130%;">Processing</span>
-                                            </td>
-                                            <td class="text-end">
-                                                <div class="d-flex justify-content-end align-items-center gap-2">
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-primary">visibility</i>
-                                                    </button>
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-primary-div-50">edit</i>
-                                                    </button>
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-danger">delete</i>
-                                                    </button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="fs-12 fw-semibold text-body-color-50">#103</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">17 Jun 2025, 6:00 PM</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">6</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">Main Hall</td>
-                                            <td class="fs-12 fw-normal text-body-color-50">Clara Smith</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">12 Jun 2025</td>
-                                            <td>
-                                                <span
-                                                    class="d-inline-block bg-card-text-c border-card-text-c border rounded-pill text-danger fs-12 fw-medium"
-                                                    style="padding: 2px 15px; line-height: 130%;">Cancelled</span>
-                                            </td>
-                                            <td class="text-end">
-                                                <div class="d-flex justify-content-end align-items-center gap-2">
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-primary">visibility</i>
-                                                    </button>
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-primary-div-50">edit</i>
-                                                    </button>
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-danger">delete</i>
-                                                    </button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="fs-12 fw-semibold text-body-color-50">#104</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">18 Jun 2025, 9:00 PM</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">3</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">Terrace</td>
-                                            <td class="fs-12 fw-normal text-body-color-50">Tom Jones</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">13 Jun 2025</td>
-                                            <td>
-                                                <span
-                                                    class="d-inline-block bg-primary-70 border-primary-70 border rounded-pill text-primary fs-12 fw-medium"
-                                                    style="padding: 2px 15px; line-height: 130%;">Processing</span>
-                                            </td>
-                                            <td class="text-end">
-                                                <div class="d-flex justify-content-end align-items-center gap-2">
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-primary">visibility</i>
-                                                    </button>
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-primary-div-50">edit</i>
-                                                    </button>
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-danger">delete</i>
-                                                    </button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="fs-12 fw-semibold text-body-color-50">#105</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">19 Jun 2025, 7:00 PM</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">5</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">Lounge</td>
-                                            <td class="fs-12 fw-normal text-body-color-50">Emma Watson</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">14 Jun 2025</td>
-                                            <td>
-                                                <span
-                                                    class="d-inline-block bg-primary-70 border-primary-70 border rounded-pill text-primary fs-12 fw-medium"
-                                                    style="padding: 2px 15px; line-height: 130%;">Processing</span>
-                                            </td>
-                                            <td class="text-end">
-                                                <div class="d-flex justify-content-end align-items-center gap-2">
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-primary">visibility</i>
-                                                    </button>
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-primary-div-50">edit</i>
-                                                    </button>
-                                                    <button
-                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
-                                                        <i
-                                                            class="material-symbols-outlined fs-16 text-danger">delete</i>
-                                                    </button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
-                            </div>
-
-                            <div
-                                class="d-flex justify-content-center justify-content-sm-between align-items-center text-center flex-wrap gap-2 showing-wrap mt-4">
-                                <span class="fs-12 fw-medium">Showing 5 of 30 Results</span>
-
-                                <nav aria-label="Page navigation example">
-                                    <ul class="pagination mb-0 justify-content-center">
-                                        <li class="page-item">
-                                            <button class="page-link icon hover-bg" aria-label="Previous">
-                                                <i class="material-symbols-outlined">keyboard_arrow_left</i>
-                                            </button>
+                                    <ul class="dropdown-menu dropdown-menu-end bg-white border-0 box-shadow py-3">
+                                        <li>
+                                            <button class="dropdown-item text-secondary py-2 px-3">Today</button>
                                         </li>
-                                        <li class="page-item">
-                                            <button class="page-link active">1</button>
+                                        <li>
+                                            <button class="dropdown-item text-secondary py-2 px-3">This Week</button>
                                         </li>
-                                        <li class="page-item">
-                                            <button class="page-link">2</button>
+                                        <li>
+                                            <button class="dropdown-item text-secondary py-2 px-3">This Month</button>
                                         </li>
-                                        <li class="page-item">
-                                            <button class="page-link">3</button>
-                                        </li>
-                                        <li class="page-item">
-                                            <button class="page-link">4</button>
-                                        </li>
-                                        <li class="page-item">
-                                            <button class="page-link icon hover-bg" aria-label="Next">
-                                                <i class="material-symbols-outlined">keyboard_arrow_right</i>
-                                            </button>
+                                        <li>
+                                            <button class="dropdown-item text-secondary py-2 px-3">This Year</button>
                                         </li>
                                     </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card bg-white border-0 rounded-3 mb-4">
-                    <div class="card-body p-4">
-                        <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
-                            <h3 class="mb-0 text-secondary-50">Top Customers</h3>
-                            <div class="dropdown select-dropdown">
-                                <button class="dropdown-toggle bg-border-color border text-body rounded-2" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Today
-                                </button>
-
-                                <ul class="dropdown-menu dropdown-menu-end bg-white border-0 box-shadow py-3">
-                                    <li>
-                                        <button class="dropdown-item text-secondary py-2 px-3">Today</button>
-                                    </li>
-                                    <li>
-                                        <button class="dropdown-item text-secondary py-2 px-3">This Week</button>
-                                    </li>
-                                    <li>
-                                        <button class="dropdown-item text-secondary py-2 px-3">This Month</button>
-                                    </li>
-                                    <li>
-                                        <button class="dropdown-item text-secondary py-2 px-3">This Year</button>
-                                    </li>
-                                </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="default-table-area style-two campaigns-table recent-order-list-table">
@@ -780,24 +452,28 @@
                                                     class="fs-10 text-body-color-60 fw-bold letter-spacing-1">S/N</span>
                                             </th>
                                             <th scope="col" class="bg-transparent text-body fw-medium">
-                                                <span class="fs-10 text-body-color-60 fw-bold letter-spacing-1">FULL
-                                                    NAME</span>
+                                                <span
+                                                    class="fs-10 text-body-color-60 fw-bold letter-spacing-1">LABEL</span>
                                             </th>
                                             <th scope="col" class="bg-transparent text-body fw-medium">
-                                                <span class="fs-10 text-body-color-60 fw-bold letter-spacing-1">PHONE
-                                                    NUMBER</span>
+                                                <span
+                                                    class="fs-10 text-body-color-60 fw-bold letter-spacing-1">SEATS</span>
                                             </th>
                                             <th scope="col" class="bg-transparent text-body fw-medium">
-                                                <span class="fs-10 text-body-color-60 fw-bold letter-spacing-1">EMAIL
-                                                    ADDRESS</span>
-                                            </th>
-                                            <th scope="col" class="bg-transparent text-body fw-medium">
-                                                <span class="fs-10 text-body-color-60 fw-bold letter-spacing-1">CREATED
-                                                    ON</span>
+                                                <span
+                                                    class="fs-10 text-body-color-60 fw-bold letter-spacing-1">LOCATION</span>
                                             </th>
                                             <th scope="col" class="bg-transparent text-body fw-medium">
                                                 <span
                                                     class="fs-10 text-body-color-60 fw-bold letter-spacing-1">STATUS</span>
+                                            </th>
+                                            <th scope="col" class="bg-transparent text-body fw-medium">
+                                                <span class="fs-10 text-body-color-60 fw-bold letter-spacing-1">CREATED
+                                                    AT</span>
+                                            </th>
+                                            <th scope="col" class="bg-transparent text-body fw-medium">
+                                                <span class="fs-10 text-body-color-60 fw-bold letter-spacing-1">UPDATED
+                                                    AT</span>
                                             </th>
                                             <th scope="col" class="text-end bg-transparent text-body fw-medium">
                                                 <span
@@ -807,16 +483,15 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="fs-12 fw-semibold text-body-color-50">1</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">John Doe</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">+44 123 456 7890</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">john.doe@example.com</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">01 Jun 2025</td>
-                                            <td>
-                                                <span
-                                                    class="d-inline-block bg-success-80 border-success-80 border rounded-pill text-success-60 fs-12 fw-medium"
-                                                    style="padding: 2px 15px; line-height: 130%;">Active</span>
+                                            <td>1</td>
+                                            <td>Table 1</td>
+                                            <td>4</td>
+                                            <td>Indoor</td>
+                                            <td><span
+                                                    class="badge d-inline-block bg-success-80 border-success-80 border rounded-pill text-success-60 fs-12 fw-medium">available</span>
                                             </td>
+                                            <td>2025-06-01 10:15</td>
+                                            <td>2025-06-10 12:20</td>
                                             <td class="text-end">
                                                 <div class="d-flex justify-content-end align-items-center gap-2">
                                                     <button
@@ -838,16 +513,15 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="fs-12 fw-semibold text-body-color-50">2</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">Jane Smith</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">+44 987 654 3210</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">jane.smith@example.com</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">05 Jun 2025</td>
-                                            <td>
-                                                <span
-                                                    class="d-inline-block bg-card-text-c border-card-text-c border rounded-pill text-danger fs-12 fw-medium"
-                                                    style="padding: 2px 15px; line-height: 130%;">Inactive</span>
+                                            <td>2</td>
+                                            <td>Table 2</td>
+                                            <td>2</td>
+                                            <td>Patio</td>
+                                            <td><span
+                                                    class="badge d-inline-block bg-danger-80 border-success-80 border rounded-pill text-dark fs-12 fw-medium">inactive</span>
                                             </td>
+                                            <td>2025-06-02 09:30</td>
+                                            <td>2025-06-10 10:00</td>
                                             <td class="text-end">
                                                 <div class="d-flex justify-content-end align-items-center gap-2">
                                                     <button
@@ -869,17 +543,15 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="fs-12 fw-semibold text-body-color-50">3</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">Richard Roe</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">+44 741 852 9630</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">richard.roe@example.com
+                                            <td>3</td>
+                                            <td>Table 3</td>
+                                            <td>6</td>
+                                            <td>Rooftop</td>
+                                            <td><span
+                                                    class="badge d-inline-block bg-primary-80 border-success-80 border rounded-pill text-success-60 fs-12 fw-medium text-dark">maintenance</span>
                                             </td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">07 Jun 2025</td>
-                                            <td>
-                                                <span
-                                                    class="d-inline-block bg-success-80 border-success-80 border rounded-pill text-success-60 fs-12 fw-medium"
-                                                    style="padding: 2px 15px; line-height: 130%;">Active</span>
-                                            </td>
+                                            <td>2025-06-03 14:00</td>
+                                            <td>2025-06-11 08:45</td>
                                             <td class="text-end">
                                                 <div class="d-flex justify-content-end align-items-center gap-2">
                                                     <button
@@ -901,17 +573,15 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="fs-12 fw-semibold text-body-color-50">4</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">Emily Davis</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">+44 963 258 7410</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">emily.davis@example.com
+                                            <td>4</td>
+                                            <td>Table 4</td>
+                                            <td>4</td>
+                                            <td>Indoor</td>
+                                            <td><span
+                                                    class="badge d-inline-block bg-success-80 border-success-80 border rounded-pill text-success-60 fs-12 fw-medium">available</span>
                                             </td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">09 Jun 2025</td>
-                                            <td>
-                                                <span
-                                                    class="d-inline-block bg-card-text-c border-card-text-c border rounded-pill text-danger fs-12 fw-medium"
-                                                    style="padding: 2px 15px; line-height: 130%;">inactive</span>
-                                            </td>
+                                            <td>2025-06-04 11:00</td>
+                                            <td>2025-06-11 13:25</td>
                                             <td class="text-end">
                                                 <div class="d-flex justify-content-end align-items-center gap-2">
                                                     <button
@@ -933,17 +603,165 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="fs-12 fw-semibold text-body-color-50">5</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">Oliver Evans</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">+44 852 963 7410</td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">oliver.evans@example.com
+                                            <td>5</td>
+                                            <td>Table 5</td>
+                                            <td>8</td>
+                                            <td>Rooftop</td>
+                                            <td><span
+                                                    class="badge d-inline-block bg-danger-80 border-danger-80 border rounded-pill text-dark fs-12 fw-medium">inactive</span>
                                             </td>
-                                            <td class="fs-12 fw-semibold text-body-color-50">11 Jun 2025</td>
-                                            <td>
-                                                <span
-                                                    class="d-inline-block bg-success-80 border-success-80 border rounded-pill text-success-60 fs-12 fw-medium"
-                                                    style="padding: 2px 15px; line-height: 130%;">Active</span>
+                                            <td>2025-06-05 10:45</td>
+                                            <td>2025-06-12 09:50</td>
+                                            <td class="text-end">
+                                                <div class="d-flex justify-content-end align-items-center gap-2">
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-primary">visibility</i>
+                                                    </button>
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-primary-div-50">edit</i>
+                                                    </button>
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-danger">delete</i>
+                                                    </button>
+                                                </div>
                                             </td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>Table 6</td>
+                                            <td>2</td>
+                                            <td>Patio</td>
+                                            <td><span
+                                                    class="badge d-inline-block bg-success-80 border-success-80 border rounded-pill text-success-60 fs-12 fw-medium">available</span>
+                                            </td>
+                                            <td>2025-06-06 16:15</td>
+                                            <td>2025-06-12 18:20</td>
+                                            <td class="text-end">
+                                                <div class="d-flex justify-content-end align-items-center gap-2">
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-primary">visibility</i>
+                                                    </button>
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-primary-div-50">edit</i>
+                                                    </button>
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-danger">delete</i>
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td>Table 7</td>
+                                            <td>4</td>
+                                            <td>Indoor</td>
+                                            <td><span
+                                                    class="badge d-inline-block bg-primary-80 border-primary-80 border rounded-pill text-primary-60 fs-12 fw-medium text-dark">maintenance</span>
+                                            </td>
+                                            <td>2025-06-07 12:05</td>
+                                            <td>2025-06-13 10:10</td>
+                                            <td class="text-end">
+                                                <div class="d-flex justify-content-end align-items-center gap-2">
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-primary">visibility</i>
+                                                    </button>
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-primary-div-50">edit</i>
+                                                    </button>
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-danger">delete</i>
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td>Table 8</td>
+                                            <td>6</td>
+                                            <td>Patio</td>
+                                            <td><span
+                                                    class="badge d-inline-block bg-success-80 border-success-80 border rounded-pill text-success-60 fs-12 fw-medium">available</span>
+                                            </td>
+                                            <td>2025-06-08 09:55</td>
+                                            <td>2025-06-13 12:30</td>
+                                            <td class="text-end">
+                                                <div class="d-flex justify-content-end align-items-center gap-2">
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-primary">visibility</i>
+                                                    </button>
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-primary-div-50">edit</i>
+                                                    </button>
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-danger">delete</i>
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td>Table 9</td>
+                                            <td>2</td>
+                                            <td>Indoor</td>
+                                            <td><span
+                                                    class="badge d-inline-block bg-danger-80 border-success-80 border rounded-pill text-dark fs-12 fw-medium">inactive</span>
+                                            </td>
+                                            <td>2025-06-09 13:40</td>
+                                            <td>2025-06-14 08:20</td>
+                                            <td class="text-end">
+                                                <div class="d-flex justify-content-end align-items-center gap-2">
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-primary">visibility</i>
+                                                    </button>
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-primary-div-50">edit</i>
+                                                    </button>
+                                                    <button
+                                                        class="ps-0 border-0 bg-transparent lh-1 position-relative top-2">
+                                                        <i
+                                                            class="material-symbols-outlined fs-16 text-danger">delete</i>
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td>Table 10</td>
+                                            <td>10</td>
+                                            <td>Rooftop</td>
+                                            <td><span
+                                                    class="badge d-inline-block bg-success-80 border-success-80 border rounded-pill text-success-60 fs-12 fw-medium">available</span>
+                                            </td>
+                                            <td>2025-06-10 15:00</td>
+                                            <td>2025-06-14 17:00</td>
                                             <td class="text-end">
                                                 <div class="d-flex justify-content-end align-items-center gap-2">
                                                     <button
@@ -1034,15 +852,14 @@
     <script src="assets/js/apexcharts.min.js"></script>
     <script src="assets/js/echarts.min.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/fullcalendar.main.js"></script>
     <script src="assets/js/jsvectormap.min.js"></script>
     <script src="assets/js/world-merc.js"></script>
     <script src="assets/js/moment.min.js"></script>
     <script src="assets/js/lightpick.js"></script>
     <script src="assets/js/custom/apexcharts.js"></script>
     <script src="assets/js/custom/echarts.js"></script>
-    <script src="assets/js/datepicker.js"></script>
     <script src="assets/js/custom/custom.js"></script>
+
 
 </body>
 
